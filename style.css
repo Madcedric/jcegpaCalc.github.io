@@ -1,0 +1,225 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+input[type="radio"] {
+    background-color: initial;
+    cursor:pointer;
+    appearance:auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    /* margin: 40px; */
+    background-image: url(images/bg_img2.png);
+    background-size:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gpacalContainer {
+    background-color:white;
+    padding:40px;
+    margin:50px;
+    border-radius: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 100%;
+    min-height: 10%;
+    box-shadow: 12px 2px 20px rgb(177, 173, 173);
+
+}
+
+.h1 {
+    text-align: center;
+    color:#79ec7e;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font: weight 5rem;
+    height: fit-content; 
+    text-shadow: 2 2 2 coral;
+
+}    
+
+
+.gradePoints {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: .5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing:.20rem;
+}
+
+label {
+    margin-right: 15px;
+    font-weight:600;
+    text-transform: capitalize;
+    display: block;
+    color: rgb(112, 117, 126);
+}
+.title {
+    font-weight:600;
+    font-family:'Times New Roman', serif;
+    display: flex;
+    justify-content:left;
+    padding: 10px;
+    font-size:1.3rem;
+    color:black;
+    text-transform:capitalize;
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(96, 173, 96);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:rgb(107, 219, 107);
+    padding: 15px;
+}
+button:active{
+    background-color: rgb(30, 255, 0);
+    padding: 15px;
+
+}
+
+#gpaResult {
+    margin-top: 20px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    justify-content: center;
+    color: black;
+    align-items: center;
+
+}
+h3 {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.1rem;
+        color:rgb(0, 0, 0);
+        font-weight:bold;
+        /* text-shadow: 1px 2px .5px #000000; */
+        justify-content: center;
+        width: 100%;
+    
+}
+
+.resetbtn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #df1b14;
+    color: white;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.calculateBtn{
+    font-size: larger;
+}
+.resetbtn:hover{
+    padding: 15px;
+    background-color: rgb(255, 0, 0);
+
+}
+.resetbtn:active{
+    padding: 15px;
+
+}
+/* @media (min-width: 00px) {
+    form {
+        width: 250%; //Adjust for smaller screens 
+    }
+} */
+
+.container {
+    width:90%;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: none;
+}
+
+.select-container {
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0px 0.5px 2px black;
+    border-radius:80px;
+    border: none;
+}
+
+.search-icon {
+    position:absolute;
+    left: 5px;
+    font-size: 50px;
+    color: #555;
+}
+
+
+.select-box {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    font-size: 12px;
+    /* border: 1px solid red; */
+    border: none;
+    border-radius: 80px;
+    /* border-radius: 10px; */
+    appearance:auto;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #ffffff8c;
+}
+.select-container :hover{
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgb(0, 255, 149); 
+}
+.select-box:focus {
+    outline:#00bb09;
+    border-color: palegreen;
+}
+.select-container:focus {
+    outline: none; /* Remove default outline */
+    border-color: #003d80; /* Even darker blue border on focus */
+    box-shadow: 0 0 5px 2px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+}
+.selectStyle{
+   padding: 25rem 50px;
+   margin: 25rem 50px;
+   border:none;
+}
+.selectStyle1{
+    padding: 25rem 50px;
+    margin: 25rem 50px;
+    border:none;
+ }
+ 
